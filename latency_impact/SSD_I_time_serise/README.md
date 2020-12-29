@@ -13,10 +13,10 @@ s3246592-l512: the latency serise of logical addresses 51,937,280 KB to 51,945,4
 
 s7824384-l512: the latency serise of logical addresses 125,181,952 KB to 125,190,128 KB (at the unit of 16KB)
 
-normal-latency-ts.pdf:      s512-l512 line 1
+normal-latency-ts.pdf:      s512-l512 line 1 (exclude header)
 
-long-latency-ts.pdf:        s8192-l512 line 331 
+long-latency-ts.pdf:        s8192-l512 line 331 (exclude header)
 
-ultra-long-latency-ts.pdf:  s3246592-l512 line 193
+ultra-long-latency-ts.pdf:  s3246592-l512 line 193 (exclude header)
 
-failed-latency-ts.pdf:      s7824384-l512 line
+failed-latency-ts.pdf:      s7824384-l512 line 37 (exclude header)
